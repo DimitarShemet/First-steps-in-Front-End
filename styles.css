@@ -1,0 +1,48 @@
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fecb00;
+  margin-bottom: 12px;
+}
+
+body {
+  background-color:#BDB76B;
+}
+
+.main {
+    width: 100%;
+    font-family: Montserrat;
+    color: #2d2d2d;
+    padding-top: 100px;
+    background-color: #fff;
+  }
+  .header {
+    width: 100%;
+    height: 1px;
+    background-color: #fecb00;
+    padding:50px; 
+    text-transform: uppercase;
+    margin-bottom: 1px;
+  }
+  .name  {
+    font-size: 47px;
+    font-weight: 600;
+    
+  }
+  .main .header .prof {
+    font-size: 20px;
+    font-weight: 500;
+  }
