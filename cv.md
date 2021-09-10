@@ -18,14 +18,17 @@
  ***
 # 5.  Code example
  ```
- int main()
- {int n =6;`
- int age [n];
- int i`;
- for (i=0;i<n;i++)
-{age[i]=23+i;};
-for (int p=0; p<6;p++)`
-{ printf("%d\n", age[p]);} 
+ function getMiddle(s)
+{
+const b=s[s.length/2-1];
+const c=s[s.length/2];
+const n= Math.ceil(s.length/2);
+if (s.length%2 !==0)
+{ console.log (s[n-1])}
+else {console.log(b + c)
+}
+}
+getMiddle("test") 
 ```
 # 6. Work experience:
 ###### _In the process of studying_ ######
@@ -37,6 +40,6 @@ for (int p=0; p<6;p++)`
 * ##### CS 50
 * ##### CodeBasics
 ***
-# 8 Languages:
+# 8. Languages:
 * ##### English - A2
 * ##### Germany - A2
