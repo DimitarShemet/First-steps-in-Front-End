@@ -1,3 +1,4 @@
-# rsschool-cv
-My CV
-https://dimitarshemet.github.io/rsschool-cv/
+https://DimitarShemet.github.io/rsschool-cv/
+
+
+
