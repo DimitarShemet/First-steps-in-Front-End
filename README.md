@@ -1,4 +1,4 @@
-https://DimitarShemet.github.io/rsschool-cv/
+https://DimitarShemet.github.io/rsschool-cv/cv
 
 
 
