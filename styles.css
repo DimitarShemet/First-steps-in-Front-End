@@ -1,4 +1,4 @@
-
+html { overflow:  hidden; }
 h1 {
     font-size:30px;
     color: black;
@@ -6,7 +6,7 @@ h1 {
 }
 a {color: black;
   text-decoration: none;}
-
+   
 
 h2 {
     font-size:  25px;
@@ -119,26 +119,28 @@ h2 {
       }
       
       .photo {margin: 5px 5px 5px 5px;
-        bottom:15px;
-        right: 455px;
-        position:absolute;
+        bottom:298px;
+        left: 390px;
+        position:relative;
+        display: inline-block;
       }
        .footer {
-    position: fixed; /* Фиксированное положение */
+    position: fixed; 
      bottom: 0; 
-    padding: 10px; /* Поля вокруг текста */
-    background: #cd5700; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    width: 980px; /* Ширина слоя */
+    padding: 10px; 
+    background: #cd5700; 
+    color: #fff; 
+    width: 980px; 
        height: 5px;   
           }
           .git {
          
-            text-align: center;
+            left: 500px;
             color:black;
             position: relative;
             bottom: 5px;
             font-weight: bold;
+            display: inline-block;
             
           }
             .year {
@@ -154,7 +156,9 @@ h2 {
               bottom:42px;
               position: relative;
               width: 150px;
-              left: 20px;              
+              left: 20px;    
+              display: inline-block; 
+                       
             }
             
         
