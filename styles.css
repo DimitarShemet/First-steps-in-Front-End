@@ -1,5 +1,4 @@
 
-html {overflow: hidden;}
 h1 {
     font-size:30px;
     color: black;
@@ -42,7 +41,7 @@ h2 {
     display: flex;
   }
   
-  .cv .aside {
+  aside {
     width: 30%;
     background-color: #008080;
     font-family: Montserrat;
@@ -126,7 +125,7 @@ h2 {
         display: inline-block;
       }
        .footer {
-    position: absolute; 
+    position: relative; 
      bottom: 0; 
     padding: 10px; 
     background: #cd5700; 
