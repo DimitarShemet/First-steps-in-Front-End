@@ -1,7 +1,16 @@
-html { overflow:  hidden; }
+html {
+  overflow-x: hidden;
+}
+@media (max-width: 320px) {
+  html {
+      overflow-x: auto;
+  }
+}
+img {border: 3px solid #fff;}
 h1 {
     font-size:30px;
     color: black;
+    
 
 }
 a {color: black;
@@ -38,7 +47,7 @@ h2 {
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    
   }
   
   .cv .aside {
@@ -87,6 +96,7 @@ h2 {
         padding-top: 70px;
         background-color: #fff;
         
+       
       }
       .header {
          
@@ -112,17 +122,21 @@ h2 {
       padding: 7px;
       border-color:#cd5700;
       color: black}
-       .dlyaul{ font-size: 20px;
+       .forul{ font-size: 20px;
         font-weight: 400;
         font-style: italic;
         margin:5px;
       }
       
-      .photo {margin: 5px 5px 5px 5px;
-        bottom:298px;
-        left: 390px;
-        position:relative;
-        display: inline-block;
+      .photo {margin: 8px 13px 20px 0px;
+         padding: 10px 0px 20px 23px;
+       
+        border: 1px black;   
+      }
+      .code {
+        width: 300px;
+      height: 250px;
+      border-color: #5a2530;
       }
        .footer {
     position: fixed; 
@@ -153,12 +167,11 @@ h2 {
             
             }
             .logo {
-              bottom:42px;
+              bottom:44px;
               position: relative;
               width: 150px;
               left: 20px;    
               display: inline-block; 
-                       
             }
             
         
