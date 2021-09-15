@@ -6,7 +6,9 @@
   <title>Dmitri Shemet</title>
   <meta name="author" content="Dmitri Shemet">
   <link rel="stylesheet" type="text/css" href="styles.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <div class="cv">
@@ -22,16 +24,15 @@
 	   <h1>Skillset</h1>
 	<h4 itemprop="about">Development</h4>
 		<ul>
-			<li itemprop="itemListElement">HTML5</li>
-			<li itemprop="itemListElement">JavaScript</li>
-			<li itemprop="itemListElement">CSS</li>
+			<li i>HTML5</li>
+			<li >JavaScript</li>
+			<li >CSS</li>
 		</ul>
-	
 	<h4 itemprop="about">Software</h4>
 		<ul>
-		<li itemprop="itemListElement">Microsoft Word</li>
-		<li itemprop="itemListElement">Microsoft Power Point</li>
-		<li itemprop="itemListElement">Microsoft Excel </li>
+		<li >Microsoft Word</li>
+		<li >Microsoft Power Point</li>
+		<li >Microsoft Excel </li>
 			
 		</ul>
 	</section>
@@ -90,8 +91,17 @@
     <li>Responsive</li>
     <li>Friendly</li>
 </ul>
-<section class="code">
-
+<section> 
+    <pre><code>
+        function getMiddle(s) {
+        const min=s[s.length/2-1];
+        const max=s[s.length/2];
+        const n= Math.ceil(s.length/2);
+        if (s.length%2 !==0)
+        {console.log (s[n-1])}
+        else {console.log(min + max)}
+        }
+        getMiddle("RSschool")</code></pre>
 </section>
 </section>
 </div>
